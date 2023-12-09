@@ -13,8 +13,25 @@
 <body>
     <header class="site-header">
         <div class="site-header__blackout blackout"></div>
+        <nav>
+            <!-- klasyczny mix BEM ten sam tag jest elementem innego bloku oraz sam tworzy nowy blok dla innych elementów -->
+            <ul class="site-header__nav nav">
+                <li class="nav__item">
+                    <a class="nav__link" href="#start">Start</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#menu">Menu</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#lokalizacja">Lokalizacja</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#kontakt">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
         <h1 class="site-header__h1 heading--h1">Restauracja Dolce Vita</h1>
-        <a class="site-header__button btn btn--red btn--circle" href="#">Menu</a>
+        <a class="site-header__button btn btn--red btn--circle" href="#menu">Menu</a>
     </header>
 </body>
 </html>
