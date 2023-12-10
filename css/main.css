@@ -58,6 +58,7 @@ table {
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -202,6 +203,7 @@ p {
   font-size: 2.2rem;
   font-weight: bold;
   text-align: center;
+  transition-duration: 0.5s;
 }
 .btn--red {
   background-color: #74030e;
@@ -297,6 +299,12 @@ p {
 }
 .site-section--bg-color {
   background-color: #504533;
+}
+
+.site-footer {
+  background-color: #201b13;
+  height: 40vh;
+  color: #eff0f3;
 }
 
 .text-color-white {
